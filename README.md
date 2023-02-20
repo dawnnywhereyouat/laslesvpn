@@ -4,4 +4,5 @@ Used technologies:<br>
     + CSS<br>
     + JavaScript<br>
 Steps to run the project:<br>
-    + Open the 'index.html' file
+    + Open the 'index.html' file <br>
+    + Or access via this link: https://haidawngvn.github.io/laslesvpn/
