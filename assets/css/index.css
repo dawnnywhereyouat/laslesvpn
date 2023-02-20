@@ -1,0 +1,133 @@
+.hero {
+  padding-bottom: 100px;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 40px;
+  position: relative;
+}
+.hero__content {
+  max-width: 555px;
+  width: 100%;
+  margin-right: 40px;
+}
+.hero__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  color: #0b132a;
+}
+.hero__desc {
+  line-height: 24px;
+  margin: 20px 0 50px 0;
+}
+.hero__image {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(40px, -50%);
+}
+
+.plan {
+  padding: 80px 0 150px 0;
+  background-color: #f8f8f8;
+}
+.plan__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.plan__desc {
+  max-width: 555px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.plan__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 50px;
+}
+.plan__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 80px 70px 50px;
+  border-radius: 10px;
+  border: 2px solid #dddddd;
+}
+.plan__item-image {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plan__item-title {
+  margin-bottom: 30px;
+}
+.plan__item-details {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.plan__item-detail {
+  display: flex;
+  gap: 0 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+}
+.plan__item-price {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.plan__item--active,
+.plan__item:hover {
+  border-color: #f53838;
+}
+.plan__item--active .plan__item-btn,
+.plan__item:hover .plan__item-btn {
+  background-color: #f53838;
+  color: white;
+}
+
+.subscribe {
+  background-color: #dde0e4;
+}
+.subscribe__container {
+  position: relative;
+  transform: translateY(-50%);
+  margin-bottom: -140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 58.5px 70px;
+  border-radius: 10px;
+  background-color: white;
+}
+.subscribe__title {
+  max-width: 370px;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #0b132a;
+}
+.subscribe__desc {
+  line-height: 1;
+}
+
+#more {
+  display: none;
+}
+
+#read-more {
+  cursor: pointer;
+}
+#read-more:hover {
+  text-decoration: underline;
+}

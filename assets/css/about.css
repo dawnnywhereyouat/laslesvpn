@@ -1,0 +1,40 @@
+.about {
+  margin-bottom: 32px;
+}
+
+.about__header,
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.about__member {
+  display: flex;
+  border: 1px solid rgb(129, 125, 125);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.about__member-info {
+  position: relative;
+  flex: 1;
+  padding: 12px;
+}
+.about__member-avatar {
+  width: 50%;
+}
+.about__member-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+  line-height: 1.6666666667;
+}
+.about__member-contacts {
+  display: flex;
+  gap: 0 12px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
